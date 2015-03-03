@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD51B4E61AA5696600DE9C5A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51B4E51AA5696600DE9C5A /* MenuViewController.swift */; };
+		CD51B4E81AA5697300DE9C5A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51B4E71AA5697300DE9C5A /* FeedViewController.swift */; };
+		CD51B4EA1AA5698300DE9C5A /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51B4E91AA5698300DE9C5A /* HamburgerViewController.swift */; };
 		CDA477851AA55E2B00060C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA477841AA55E2B00060C58 /* AppDelegate.swift */; };
 		CDA477871AA55E2B00060C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA477861AA55E2B00060C58 /* ViewController.swift */; };
 		CDA4778A1AA55E2B00060C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA477881AA55E2B00060C58 /* Main.storyboard */; };
 		CDA4778C1AA55E2B00060C58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4778B1AA55E2B00060C58 /* Images.xcassets */; };
 		CDA4778F1AA55E2B00060C58 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA4778D1AA55E2B00060C58 /* LaunchScreen.xib */; };
 		CDA4779B1AA55E2B00060C58 /* week5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4779A1AA55E2B00060C58 /* week5Tests.swift */; };
+		CDA477A51AA55F7E00060C58 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA477A41AA55F7E00060C58 /* TabBarViewController.swift */; };
+		CDA477A71AA5604E00060C58 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA477A61AA5604E00060C58 /* BlueViewController.swift */; };
+		CDA477A91AA5605800060C58 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA477A81AA5605800060C58 /* PurpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD51B4E51AA5696600DE9C5A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CD51B4E71AA5697300DE9C5A /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CD51B4E91AA5698300DE9C5A /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
 		CDA4777F1AA55E2B00060C58 /* week5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA477831AA55E2B00060C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA477841AA55E2B00060C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,9 @@
 		CDA477941AA55E2B00060C58 /* week5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA477991AA55E2B00060C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDA4779A1AA55E2B00060C58 /* week5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week5Tests.swift; sourceTree = "<group>"; };
+		CDA477A41AA55F7E00060C58 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CDA477A61AA5604E00060C58 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		CDA477A81AA5605800060C58 /* PurpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,12 @@
 				CDA4778B1AA55E2B00060C58 /* Images.xcassets */,
 				CDA4778D1AA55E2B00060C58 /* LaunchScreen.xib */,
 				CDA477821AA55E2B00060C58 /* Supporting Files */,
+				CDA477A41AA55F7E00060C58 /* TabBarViewController.swift */,
+				CDA477A61AA5604E00060C58 /* BlueViewController.swift */,
+				CDA477A81AA5605800060C58 /* PurpleViewController.swift */,
+				CD51B4E51AA5696600DE9C5A /* MenuViewController.swift */,
+				CD51B4E71AA5697300DE9C5A /* FeedViewController.swift */,
+				CD51B4E91AA5698300DE9C5A /* HamburgerViewController.swift */,
 			);
 			path = week5;
 			sourceTree = "<group>";
@@ -213,7 +231,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA477871AA55E2B00060C58 /* ViewController.swift in Sources */,
+				CD51B4E61AA5696600DE9C5A /* MenuViewController.swift in Sources */,
+				CDA477A51AA55F7E00060C58 /* TabBarViewController.swift in Sources */,
+				CDA477A91AA5605800060C58 /* PurpleViewController.swift in Sources */,
+				CD51B4EA1AA5698300DE9C5A /* HamburgerViewController.swift in Sources */,
+				CDA477A71AA5604E00060C58 /* BlueViewController.swift in Sources */,
 				CDA477851AA55E2B00060C58 /* AppDelegate.swift in Sources */,
+				CD51B4E81AA5697300DE9C5A /* FeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +429,7 @@
 				CDA477A01AA55E2B00060C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDA477A11AA55E2B00060C58 /* Build configuration list for PBXNativeTarget "week5Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				CDA477A31AA55E2B00060C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
